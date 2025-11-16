@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "devDependencies": {
+    "typescript": "5.6.3"
+  },
   "dependencies": {
     "@tryghost/content-api": "1.11.23",
     "next": "14.2.13",

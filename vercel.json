@@ -1,1 +1,7 @@
-{"rewrites":[{"source":"/(.*)","destination":"/index.html"}]}
+{
+  "framework": "nextjs",
+  "installCommand": "yarn --cwd apps/web install",
+  "buildCommand": "yarn --cwd apps/web build",
+  "outputDirectory": "apps/web/.next",
+  "ignoredBuildStep": "echo Using apps/web as root"
+}
